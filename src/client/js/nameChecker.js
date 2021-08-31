@@ -10,5 +10,9 @@ function checkForName(inputText) {
 
     if(names.includes(inputText)) {
         alert("Welcome, Captain!")
+    } else {
+        alert("You are not a captain!")
     }
 }
+
+export { checkForName}
